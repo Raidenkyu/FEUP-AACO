@@ -1,0 +1,8 @@
+qubits 2
+
+prepz q0
+prepz q1
+h q0
+measure q0
+cx b0, q1
+display
